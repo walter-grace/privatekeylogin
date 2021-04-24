@@ -31,7 +31,7 @@ function Login() {
         clientId: process.env.REACT_APP_CLIENT_ID, // your project id
         network: "testnet",
         originData: {
-          "https://60843af620535d78b7fd2c1b--clever-morse-c3f078.netlify.app": process.env.REACT_APP_SIG
+          "https://privatekeysolana.herokuapp.com/": process.env.REACT_APP_SIG
         }
       });
       await sdkInstance.init();
